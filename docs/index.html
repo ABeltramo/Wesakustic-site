@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+<head>
+	<meta name="generator" content="Hugo 0.27.1" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>My New Hugo Site</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    
+    <link href='css/animate.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    
+    <nav id="header" class="navbar navbar-fixed-top header headInvisible hidden-xs">
+        <div class="container">
+            <p class="logo pull-left">
+                <a href="index.html">
+                    <span class="logo-title">
+                        <img class="miniLogo" src="img/LogoMin.png">
+                    </span>
+                </a>
+            </p>
+            <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+                <div class="navbar-collapse collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="scrollto" href="#Prezzi">Riparazioni</a></li>
+                        <li class="nav-item"><a href="franchising.html">Franchising</a></li>
+                        <li class="nav-item"><a href="http://stores.ebay.it/copiaincollastore">Ebay</a></li>
+                        <li class="nav-item"><a href="contatti.html">Contatti</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </nav>
+
+    
+    <nav id="header" class="navbar navbar-fixed-top header headInvisible hidden-sm hidden-md hidden-lg">
+      <div class="container">
+          <p class="logo-xs pull-left">
+              <a href="index.html">
+                  <span class="logo-title">
+                      <img class="miniLogo-xs" src="img/icon.png">
+                  </span>
+              </a>
+          </p>
+          <nav id="main-nav" class="main-nav navbar-right pull-right" role="navigation">
+              <ul class="nav">
+                  <li class="item-xs pull-left">
+                    <a class="scrollto" href="#Prezzi"><span class="glyphicon glyphicon-wrench" aria-hidden="true"></span></a>
+                  </li>
+                  <li class="item-xs pull-left">
+                    <a href="franchising.html"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span></a>
+                  </li>
+                  <li class="item-xs pull-left">
+                    <a href="contatti.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span></a>
+                  </li>
+              </ul>
+          </nav>
+        </div>
+    </nav>
+
+
+<div class="bigContainer bigPicture indexCopiaFoto">
+    <div class="title mainColor"><img src="img/LogoBig.png" class="col-xs-12 col-sm-6 col-sm-offset-3 animated fadeInUp"></div>
+    <div class="description col-xs-12 animated fadeInUp" style="text-shadow: 1px 1px 3px black;">Assistenza e riparazione Notebook PC e Mac</div>
+</div>
+
+    
+    <footer class="backMainColor">
+        <div class="col-xs-12 col-sm-4">
+            COPIA&amp;INCOLLA
+            <br>Via Paolo Casana 4
+            <br>28921 Verbania (VB)
+        </div>
+        <div class="col-xs-12 col-sm-4">
+            <ul class="list-inline wow fadeIn">
+                <li>
+                    <a href="https://www.facebook.com/copiaincollastore" class="btn-social btn-outline">
+                        <span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contatti.html" class="btn-social btn-outline">
+                        <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://stores.ebay.it/copiaincollastore" class="btn-social btn-outline">
+                        <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+             <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> 0323 404822
+            <br>info@copiaincollastore.com
+            <br>copiaincollastore@gmail.com
+        </div>
+    </footer>
+    <div class="copyright backMainColorDark">Copyright © <a href="http://abeltra.me/">ABeltramo</a> 2016</div>
+
+    
+    <script type='text/javascript' src="js/jquery-2.1.4.min.js"></script>
+    <script type='text/javascript' src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/effects.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+    <script>
+        $(".square-wall").on("click",function(){
+            $('.collapse.in').collapse('hide');
+            $(".wall-selected").removeClass("wall-selected");
+            $(this).addClass("wall-selected");
+        });
+
+        $(".collapse").on("hide.bs.collapse",function(){
+            $(".wall-selected").removeClass("wall-selected");
+        })
+    </script>
+</body>
+</html>
