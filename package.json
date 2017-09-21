@@ -1,0 +1,15 @@
+{
+  "name": "wesakustik",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ABeltramo/Wesakustic-site.git",
+  "author": "ABeltramo <beltramo.ale@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "wowjs": "^1.1.3"
+  }
+}
