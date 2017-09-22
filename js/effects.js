@@ -19,6 +19,21 @@ $(".scrollto").on('click', function(e) {
 
 });
 
+var DoScroll = true; // Se la setto a false non fa l'animazione (pagina contatti)
+$(document).scroll(function(){
+		if(DoScroll){
+			var $this = $(this);
+			if ($this.scrollTop() > 120) {
+        $(".header").addClass("headerVisible");
+        $(".logo img").attr("src","img/OnlyLogo.png");
+			}
+			else{
+        $(".header").removeClass("headerVisible");
+        $(".logo img").attr("src","img/OnlyLogoWhite.png");
+			}
+		}
+});
+
 /* ANDROID HACK 
  * see: http://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome
  */

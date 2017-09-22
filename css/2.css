@@ -1,0 +1,231 @@
+html,body{
+    margin:0;
+    width:100%;
+    height: 100%;
+    min-height:100%;
+}
+
+body {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #444444;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-size-adjust: 100%;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+a, a:focus, a:hover, a:visited {
+    color:black;
+    text-decoration:none;
+}
+
+/* Remove styling from ios */
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+h1{
+    font-size: 3.5em;
+    text-shadow: 1px 1px 1px #E4321E;
+}
+
+.btn-default{
+    background: #A30404;
+    color: white;
+}
+
+.btn-default:hover, .btn-default:active{
+    background: #D40808;
+    color: white;
+}
+
+.mainColor{
+    color: #D40808;
+}
+
+/**************************************** 
+ * HEADER 
+ *****************************************/
+
+ .header{
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    background-color: transparent;
+    color: black;
+}
+
+.headerVisible{
+    background-color: white;
+    color: #D40808;
+    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07),0 2px 9px 0 rgba(62,57,107,0.06);
+}
+
+.headerVisible .navbar-nav > li a,
+.headerVisible .nav > li > a:focus,
+.headerVisible .nav > li > a:hover,
+.headerVisible .nav > li > a:visited,
+.headerVisible .logo p{
+    color: #D40808
+}
+
+.header .logo{
+    height: 100%;
+    margin-left: 50px;
+}
+
+.header .logo p{
+    font-weight: 600;
+    font-size: 2em;
+    padding-top: 15px;
+    padding-left: 80px;
+    width: 300px;
+}
+
+.navbar-nav > li{
+    margin-top: 10px;
+}
+
+.navbar-nav > li a{
+    color: white;
+}
+
+.nav > li > a:focus, .nav > li > a:hover, .nav > li > a:visited {
+    text-decoration: underline;
+    background-color: transparent;
+    color: white;
+}
+
+.logo p{
+    color: white;
+}
+
+/**************************************** 
+ * CONTENT 
+ *****************************************/
+
+.bigTitle{
+    font-size: 100px;
+}
+
+.bigContainer{
+    min-height: 100%;
+    text-align: center;
+    position: relative;
+    padding: 10%;
+}
+
+.mainBackground{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 200px;
+    color: white;
+    text-align: justify;
+}
+
+/**************************************** 
+ * STRIPES 
+ *****************************************/
+
+#stripes{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: skewY(-12deg);
+    transform-origin: 0;
+    background: linear-gradient(150deg,#D81414 15%,#E43C2A 50%,#FF7171 94%);
+}
+
+#stripes :nth-child(1) {
+    width: 33.33333%;
+    left: -16.66666%;
+    background: #A30404;
+}
+
+#stripes :nth-child(2) {
+    width: 33.33333%;
+    top: 0;
+    left: 16.66666%;
+    right: auto;
+    background: #C51919;
+}
+
+#stripes :nth-child(3) {
+    width: 33.33333%;
+    left: 49.99999%;
+    bottom: auto;
+    background: #D81717;
+}
+
+#stripes span{
+    position: absolute;
+    height: 200px;
+}
+
+#developers-first {
+    position:relative;
+    padding-top:110px
+   }
+   #developers-first:before {
+    content:"";
+    position:absolute;
+    z-index:-1;
+    width:100%;
+    height:180%;
+    top:0;
+    transform:skewY(-12deg);
+    background:#f5faff;
+   }
+
+.backColored{
+    background: #FE5151;
+    color: white;
+    position: relative;
+    padding: 0;
+    height: 1000px;
+    margin-top: 120px;
+}
+
+.backColored .title{
+    color: white;
+}
+
+.backColored:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:100%;
+    background:#FE5151;
+    top:-14%;
+    z-index: -1;
+    transform:skewY(+10deg);
+}
+
+.backWhite{
+    background-color: #FFF6F6;
+}
+
+.backTransparent{
+    color: white;
+}
+
+#staff .thumbnail{
+    margin-top: 25px;
+}
+
+/* Mobile */
+@media(max-width:767px){
+
+    .header .option{
+        top: 16px;
+        font-size: 0.8em;
+    } 
+
+    .bigTitle{
+        font-size: 70px;
+    }
+}
