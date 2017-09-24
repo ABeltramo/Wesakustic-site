@@ -299,7 +299,7 @@
             $("#loadingIcon span").removeClass("glyphicon-refresh-animate");                // Restart animation
             $("#loadingIcon span").addClass("glyphicon-refresh-animate");                    // Restart animation
             var div = $(e.target).parent();
-            var img = $(div).find("img").attr("src").replace(/^.*[\\\/]/, '');
+            var img = $(div).find("img").attr("data-src").replace(/^.*[\\\/]/, '');
             $("#bigImg").attr("src","img/Portfolio/"+img);
             $("#modalPortfolio").modal("show");
         });
