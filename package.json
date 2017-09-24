@@ -10,6 +10,7 @@
     "animate.css": "^3.5.2",
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
+    "lazyload": "^2.0.0-beta.2",
     "wowjs": "^1.1.3"
   }
 }

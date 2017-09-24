@@ -14,6 +14,10 @@ jquery@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
+lazyload@^2.0.0-beta.2:
+  version "2.0.0-beta.2"
+  resolved "https://registry.yarnpkg.com/lazyload/-/lazyload-2.0.0-beta.2.tgz#1dc729c3739f06fdc825702c33b9dd99f89ebcbd"
+
 wowjs@^1.1.3:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/wowjs/-/wowjs-1.1.3.tgz#440fc1bb4c7e896840ee47972296a2b59075acbd"
