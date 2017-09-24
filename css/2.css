@@ -212,8 +212,92 @@ h1{
     color: white;
 }
 
+/**************************************** 
+ * PORTFOLIO 
+ *****************************************/
+
+#portfolio img{
+    height: 100%;
+}
+
+#portfolio a{
+    overflow: hidden;
+    height: 220px;
+    padding: 5px;
+}
+
+#portfolio .thumbnail{
+    position: relative
+}
+
+#portfolio .thumbnail-cover{
+    position: absolute;
+    width: 95.5%;
+    height: 95.5%;
+    z-index: 9;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#portfolio .thumbnail-cover:hover{
+   animation-name: slowShow;
+   animation-duration: 0.5s;
+   background-color: rgba(0, 0, 0, 0.70);
+}
+
+#modalPortfolio img{
+   max-width: 100%;
+   max-height: 100%;
+   z-index: 999;
+   position: relative;
+}
+
+#modalPortfolio .imgDesc{
+    margin-top: 40px;
+}
+
+#loadingIcon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 30px;
+    color: white;
+    margin-left: -15px;
+    margin-top: -15px;
+    z-index: 9;
+}
+
+button.close{
+   position: absolute;
+   top: 0;
+   right: 8px;
+   font-size: 40px;
+   z-index: 999;
+}
+
+a.thumbnail:hover{
+   border-color: black;
+}
+
+@keyframes slowShow {
+   0%   {background-color: rgba(0, 0, 0, 0);}
+   100% {background-color: rgba(0, 0, 0, 0.70);}
+}
+
 #staff .thumbnail{
     margin-top: 25px;
+}
+
+#portfolioWrapper{
+    height:100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#portfolioWrapper td{
+    vertical-align: middle;
+    text-align: center;
 }
 
 /* Mobile */
@@ -243,3 +327,19 @@ h1{
             height: 700px;
         }
 }
+
+/* LOADING BOOTSTRAP ICON */
+.glyphicon-refresh-animate {
+    -animation: spin 1s 5 linear;
+    -webkit-animation: spin2 1s 5 linear;
+  }
+  
+  @keyframes spin {
+    from { transform: scale(1) rotate(0deg);}
+    to { transform: scale(1) rotate(360deg);}
+  }
+  
+  @-webkit-keyframes spin2 {
+    from { -webkit-transform: rotate(0deg);}
+    to { -webkit-transform: rotate(360deg);}
+  }
