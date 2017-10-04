@@ -38,15 +38,15 @@ $(document).scroll(function(){
  * see: http://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome
  */
 $(function(){
-  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
-    jQuery(window).resize("resizeBackground");
-    resizeBackground();
-  }
-  
   function resizeBackground(){
     console.log("Android device");
     var height = jQuery(window).height();
     $(".bigContainer").css("minHeight",height-70+"px");
+  }
+
+  if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+    jQuery(window).resize(resizeBackground);
+    resizeBackground();
   }
 });
 /* //ANDROID HACK */
