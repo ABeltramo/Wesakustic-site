@@ -261,6 +261,25 @@ h1{
 
 #modalPortfolio .imgDesc{
     margin-top: 40px;
+    font-size: 26px;
+}
+
+#modalPortfolio .btnOverImg{
+    z-index: 99999;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    text-shadow: 1px 1px 3px black;
+}
+
+#modalPortfolio #btnPrevImg{
+    left: 0;
+}
+
+#modalPortfolio #btnNextImg{
+    right: 0;
 }
 
 #loadingIcon{
@@ -425,8 +444,8 @@ footer .littleBorder{
 
 /* LOADING BOOTSTRAP ICON */
 .glyphicon-refresh-animate {
-    -animation: spin 1s 5 linear;
-    -webkit-animation: spin2 1s 5 linear;
+    -animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
   }
   
   @keyframes spin {

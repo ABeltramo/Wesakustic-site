@@ -1,0 +1,9 @@
+# One year for image files
+<filesMatch ".(jpg|jpeg|png|gif|ico)$">
+Header set Cache-Control "max-age=31536000, public"
+</filesMatch>
+
+# One day for html css and js
+<filesMatch ".(html|css|js)$">
+Header set Cache-Control "max-age=86400, public"
+</filesMatch>
