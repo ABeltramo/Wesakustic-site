@@ -46,7 +46,7 @@ h1{
 }
 
 .mainColor{
-    color: #D40808;
+    color: #D40808 !important;
 }
 
 /**************************************** 
@@ -178,7 +178,7 @@ h1{
     position:relative;
     padding-top:110px
    }
-   #developers-first:before {
+#developers-first:before {
     content:"";
     position:absolute;
     z-index:-1;
@@ -187,7 +187,7 @@ h1{
     top:0;
     transform:skewY(-12deg);
     background:#f5faff;
-   }
+}
 
 .backColored{
     background: transparent;
@@ -326,6 +326,81 @@ a.thumbnail:hover{
     vertical-align: middle;
     text-align: center;
 }
+
+/**************************************** 
+ * ACUSTICA 
+ *****************************************/
+
+.acustica img{
+    height: 100%;
+}
+
+.acustica h1{
+    margin-top: 150px;
+    text-align: center;
+    color: white;
+}
+
+.acustica .bigContainer{
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+}
+
+.acustica .bigContainer h1.firstTitle{
+    margin-top: 125px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.pannello:before{
+    content:"";
+    position:absolute;
+    width:100%;
+    height:110%;
+    z-index: -1;
+}
+
+.pannello1:before{
+    background:#FE5151;
+    transform:skewY(-5deg);
+}
+
+.pannello3:before{
+    background:rgb(255, 65, 65);
+    transform:skewY(5deg);
+    margin-top: 100px;
+}
+
+.pannello5:before{
+    background:#FE5151;
+    transform:skewY(-5deg);
+}
+
+.pannello1 .pannelloWrapper{
+    background-color: rgb(224, 60, 60);
+}
+
+.pannello2 .pannelloWrapper{
+    background-color: whitesmoke;
+}
+
+.pannelloWrapper{
+    width: 100%;
+    margin-top: 25px;
+    overflow-y: auto;
+    box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.562);
+    padding: 15px;
+    text-align: justify;
+}
+
+.thumbContainer{
+    overflow-y: auto;
+    margin: 20px auto auto;
+    width: 1000px;
+    text-align: center;
+}
+
 
 /**************************************** 
  * FOOTER 
