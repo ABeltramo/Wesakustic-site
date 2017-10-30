@@ -9,7 +9,10 @@
   "dependencies": {
     "animate.css": "^3.5.2",
     "bootstrap": "^3.3.7",
+    "i18next": "^10.0.6",
+    "i18next-xhr-backend": "^1.4.3",
     "jquery": "^3.2.1",
+    "jquery-i18next": "^1.2.1",
     "lazyload": "^2.0.0-beta.2",
     "wowjs": "^1.1.3"
   }

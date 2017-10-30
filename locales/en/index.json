@@ -1,0 +1,26 @@
+{
+    "first" : {
+        "mission"       : "Development of innovative acoustic devices thanks to the continuous diligence in reasearch.",
+        "missionDesc"   : "Projects that have been relized by way of custom-made products, have made the difference in comparison to projects that have been relized with industrial products.<br>Wesakustik offers a large high quality selection of products for the acoustic insulation, absorption and diffusion.",
+        "button"        : "Discover our solutions"
+    },
+    "company" : {
+        "title"         : "Company",
+        "desc"          : "The Company was born in 2004 thanks to the experience started in 1999. Wesakustik is an expanding company in the acoustics field by way of a countinuous research and development.<br>The trigger of this process has been the awareness that, although the sound can be controlled by absorption, reflection and difussion process, the acoustic market is devoid of soundproof panels with high architectural rating. Most of the soundproof materials are often of industrial type with  general characteristcs and no special  aesthetic understandings and are not exploitable incase of special needs and refined settings.<br>Our personal practice has been developped  in different fields as physics, music and electroacoustic devices technology, making possible the realization of specific products as: Schroeder loudspeaker  system, Helmholtz resonator, reflecting systems, Bass Traps, all that customized in order to  meet the different needs."
+    },
+    "staff" :{
+        "founder"       : "Sergio Villa - Founder",
+        "founderDesc"   : "Acustic technician (Aut. Reg. N. 346 - DA 10.04)<br>Member of SSA - SGA (Schweizerische Gesellshaft fϋr Akustik) N. E 496 ",
+        "cofounder"     : "Ermann Frattini",
+        "cofounderDesc" : "Material Manager<br>Co-founder.<br>Expert of strategy and human resources",
+        "architect"     : "Arch. Christian Fedele",
+        "architectDesc" : "Tecnical local consultant: Trentino Alto Adige<br>Acustic technician"
+    },
+    "whatWeDo" : {
+        "title"         : "What we do",
+        "prof"          : "Professionals",
+        "profDesc"      : "Valutazioni previsionali e verifiche strumentali di Impatto e Clima Acustico;<br>Calcolo previsionale e collaudo dei Requisiti Acustici degli edifici;<br>Misure fonometriche, modelli previsionali, fonomappature, olografie acustiche;<br>Verifica del rumore negli ambienti di lavoro ",
+        "ind"           : "Industrials",
+        "indDesc"       : "Progettazione, costruzione e posa di pannelli fonoassorbenti e materiali fonoisolanti per ambienti;<br>Progettazione e installazione apparecchiature attive per il mascheramento e la cancellazione del suono;<br>Barriere acustiche, silenziatori e sistemi di contenimento del rumore esterno;<br>Fornitura, installazione e collaudo: impianti elettroacustici e illuminazione scenica, impianti video e per videoconferenze, sistemi di contenimento del rumore "
+    }
+}

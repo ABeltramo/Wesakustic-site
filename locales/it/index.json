@@ -1,0 +1,26 @@
+{
+    "first" : {
+        "mission"       : "Sviluppo di innovativi strumenti acustici attraverso un continuo impegno nella ricerca.",
+        "missionDesc"   : "Numerosi progetti realizzati con prodotti appositamente creati hanno fatto la differenza con quelli proposti da altri progettisti con l’impiego di materiali generici reperibili sul mercato.<br>Siamo in grado di offrire la più ampia selezione di prodotti per l’isolamento, l’assorbimento e la diffusione acustica con finiture di qualità. ",   
+        "button"        : "Scopri le nostre soluzioni"
+    },
+    "company" : {
+        "title"         : "L'azienda",
+        "desc"          : "L’Impresa è nata nel 2004 e rappresenta una realtà aziendale in grado di espandersi progressivamente in ambito acustico attraverso l'impegno nella ricerca. La scintilla che ha innescato questo processo è scaturita dalla consapevolezza che, nonostante il fatto che il suono possa essere controllato da processi di assorbimento, riflessione e diffusione, non sono presenti sul mercato superfici fonodiffondenti selettive con valenza architettonica, e i materiali assorbenti sono principalmente di tipo industriale, con caratteristiche generiche e quindi difficilmente adattabili a esigenze specifiche, inoltre non possiedono alcun carattere esteticamente valido per l’impiego in ambienti sofisticati. L’esperienza personale acquisita nel campo della fisica, della musica e della tecnologia delle apparecchiature elettroacustiche, ha reso possibile la realizzazione di manufatti specifici: Diffusori di Schroeder, Risonatori di Helmholtz, Sistemi Riflettenti, Bass Traps, tutti costruiti su misura in funzione delle necessità riscontrate negli ambienti da correggere.<br>Numerosi progetti realizzati con prodotti appositamente creati hanno fatto la differenza con quelli proposti da altri progettisti con l’impiego di materiali generici reperibili sul mercato. Infatti il risultato atteso nei nostri progetti è puntualmente riscontrato al collaudo e il livello di soddisfazione è tale da spingere i vari clienti a promuovere le soluzioni proposte anche ad altri potenziali utilizzatori.<br>Per questa ragione siamo in grado di offrire la più ampia selezione di prodotti per l’isolamento, l’assorbimento e la diffusione acustica con finiture di qualità."
+    },
+    "staff" :{
+        "founder"       : "Sergio Villa - Fondatore",
+        "founderDesc"   : "Tecnico Competente in Acustica (Aut. Reg. N. 346 - DA 10.04)<br>Membro di SSA - SGA (Schweizerische Gesellshaft fϋr Akustik) N. E 496 ",
+        "cofounder"     : "Ermann Frattini",
+        "cofounderDesc" : "Material Manager<br>Socio co-fondatore.<br>Esperto di strategia e risorse umane.",
+        "architect"     : "Arch. Christian Fedele",
+        "architectDesc" : "Consulente Tecnico Zona: Trentino Alto Adige<br>Tecnico Competente in Acustica"
+    },
+    "whatWeDo" : {
+        "title"         : "Cosa facciamo",
+        "prof"          : "Area Professionale",
+        "profDesc"      : "Valutazioni previsionali e verifiche strumentali di Impatto e Clima Acustico;<br>Calcolo previsionale e collaudo dei Requisiti Acustici degli edifici;<br>Misure fonometriche, modelli previsionali, fonomappature, olografie acustiche;<br>Verifica del rumore negli ambienti di lavoro ",
+        "ind"           : "Area Industriale",
+        "indDesc"       : "Progettazione, costruzione e posa di pannelli fonoassorbenti e materiali fonoisolanti per ambienti;<br>Progettazione e installazione apparecchiature attive per il mascheramento e la cancellazione del suono;<br>Barriere acustiche, silenziatori e sistemi di contenimento del rumore esterno;<br>Fornitura, installazione e collaudo: impianti elettroacustici e illuminazione scenica, impianti video e per videoconferenze, sistemi di contenimento del rumore "
+    }
+}
