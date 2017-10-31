@@ -1,0 +1,31 @@
+{
+    "first" : {
+        "title"         : "Acustic",
+        "subtitle"      : "manca traduzione",
+        "desc"          : "manca traduzione"
+    },
+    "seriew" : {
+        "title"         : "Serie W",
+        "desc"          : "manca traduzione"
+    },
+    "seriefb" : {
+        "title"         : "SerieFB",
+        "desc"          : "manca traduzione"
+    },
+    "budget" : {
+        "title"         : "Budget®",
+        "desc"          : "manca traduzione"
+    },
+    "ziqqurat" : {
+        "title"         : "Ziqqurat®",
+        "desc"          : "manca traduzione"
+    },
+    "clearsound" : {
+        "title"         : "Clearsound®",
+        "desc"          : "manca traduzione"
+    },
+    "mon" : {
+        "title"         : "Mon®",
+        "desc"          : "manca traduzione"
+    }
+}
