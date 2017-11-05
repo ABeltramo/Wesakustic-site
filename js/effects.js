@@ -50,3 +50,25 @@ $(function(){
   }
 });
 /* //ANDROID HACK */
+
+/*
+ * LANGUAGE UTILS
+ */
+$("#changeLanguage li").click(function(e){
+  e.preventDefault();
+  var lang = $(e.target).parents("li").attr("lang");
+  i18next.changeLanguage(lang, (err, t) => {
+      console.log(t);
+      if (err) return console.log('something went wrong loading', err);
+      changeFlag(lang);
+      $('body').localize();
+  });
+})
+
+function changeFlag(locale){
+  var selected = $("#changeLanguage li[lang='" + locale + "']");
+  console.log(selected.find("img").attr("src"));
+  console.log($("#langFlag img").attr("src"));
+  $("#langFlag img").attr("src",selected.find("img").attr("src"));
+  $("#langFlag span").text(selected.text());
+}

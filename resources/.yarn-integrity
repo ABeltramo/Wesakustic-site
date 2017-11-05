@@ -1,4 +1,5 @@
 {
+  "nodeVersion": "v8.9.0",
   "modulesFolders": [
     "resources"
   ],
@@ -7,6 +8,7 @@
   "topLevelPatterns": [
     "animate.css@^3.5.2",
     "bootstrap@^3.3.7",
+    "i18next-browser-languagedetector@^2.0.0",
     "i18next-xhr-backend@^1.4.3",
     "i18next@^10.0.6",
     "jquery-i18next@^1.2.1",
@@ -18,6 +20,7 @@
     "animate.css@^3.5.2": "https://registry.yarnpkg.com/animate.css/-/animate.css-3.5.2.tgz#91e668dc069a808e5e499514867b97aae0166c36",
     "animate.css@latest": "https://registry.yarnpkg.com/animate.css/-/animate.css-3.5.2.tgz#91e668dc069a808e5e499514867b97aae0166c36",
     "bootstrap@^3.3.7": "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71",
+    "i18next-browser-languagedetector@^2.0.0": "https://registry.yarnpkg.com/i18next-browser-languagedetector/-/i18next-browser-languagedetector-2.0.0.tgz#4d9df2bd1a5deda3c8c0a6d3db62d50388b9eedd",
     "i18next-xhr-backend@^1.4.3": "https://registry.yarnpkg.com/i18next-xhr-backend/-/i18next-xhr-backend-1.4.3.tgz#d72f70536a3bf6a3892261dde352bc77d708886a",
     "i18next@^10.0.6": "https://registry.yarnpkg.com/i18next/-/i18next-10.0.6.tgz#52479259dfa3c2dfbb33648632d0d18c0ff0f7a7",
     "jquery-i18next@^1.2.1": "https://registry.yarnpkg.com/jquery-i18next/-/jquery-i18next-1.2.1.tgz#3e4ac5e46632fac21640529f1aa7b68e54f227e8",

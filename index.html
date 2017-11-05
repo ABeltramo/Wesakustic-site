@@ -38,6 +38,14 @@
                         <li class="nav-item"><a class="scrollto" href="#chi-siamo" data-i18n="common:header.who">Chi siamo</a></li>
                         <li class="nav-item"><a href="acustica.html" data-i18n="common:header.acustic">Acustica</a></li>
                         <li class="nav-item"><a href="portfolio.html" data-i18n="common:header.portfolio">Portfolio</a></li>
+                        <li class="nav-item">
+                            <a data-toggle="dropdown" id="langFlag" href=""><img src="img/Flags/it.png"><span>IT</span></a>
+                            <ul class="dropdown-menu" id="changeLanguage" aria-labelledby="dLabel">
+                                <li lang="it"><a href=""><img src="img/Flags/it.png"> IT</a></li>
+                                <li lang="en"><a href=""><img src="img/Flags/gb.png"> EN</a></li>
+                                <li lang="de"><a href=""><img src="img/Flags/de.png"> DE</a></li>
+                            </ul>
+                        </li>
                     </ul><!--//nav-->
                 </div><!--//navabr-collapse-->
             </nav><!--//main-nav-->
@@ -156,11 +164,12 @@
     <script type="text/javascript" src="resources/i18next/i18next.min.js"></script>
     <script type="text/javascript" src="resources/jquery-i18next/jquery-i18next.min.js"></script>
     <script type="text/javascript" src="resources/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="resources/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
     <script>
         i18next
         .use(i18nextXHRBackend)
+        .use(i18nextBrowserLanguageDetector)
         .init({
-            lng: 'en', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
             ns: ['index', 'common'],
             defaultNS: 'index',
             backend: {
@@ -170,6 +179,7 @@
         }, function(err, t) {
             jqueryI18next.init(i18next, $);     // Init jquery wrapper
             $('body').localize();               // Localize all body
+            changeFlag(i18next.language);
         });
     </script>
 </body>

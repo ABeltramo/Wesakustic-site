@@ -524,6 +524,27 @@ footer .littleBorder{
         }
 }
 
+/* Language selector */
+.dropdown-menu{
+    min-width: 80px;
+}
+
+.dropdown-menu > li > a{
+    color: #D40808;
+}
+
+.navbar-nav > li > .dropdown-menu{
+    margin-top: 9px;
+}
+
+.dropdown-menu li{
+    margin: 15px;
+}
+
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+    background-color: transparent;
+}
+
 /* LOADING BOOTSTRAP ICON */
 .glyphicon-refresh-animate {
     -animation: spin 1s infinite linear;
