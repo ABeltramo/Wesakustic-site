@@ -1,31 +1,31 @@
 {
     "first" : {
-        "title"         : "Acoustic",
-        "subtitle"      : "manca traduzione",
-        "desc"          : "manca traduzione"
+        "title"         : "Acustica",
+        "subtitle"      : "Schallabsorbierende Platten gegen Hohlraumresonanz.",
+        "desc"          : "Es handelt sich um eine besondere Art von akustischen Geräten, die in der Lage sind, die zu absorbierenden Frequenzen auszusortieren. Sie werden nach einem geometri- schen, den verschiedenen Frequenzen angepassten Schema realisiert und arbeiten, zusammen mit dem Grundsatz der Plattenschwinger, gemäß dem Helmholtz- Resonator-System. Der hohe Absorptionskoeffizient „α“ wird dank der Entwurfsvielsei- tigkeit erreicht, die, trotz der konstanten Gestaltung, dessen spezifische Parameter ver- ändert: Durchmesser der Löcher und Hohlräume, deren Abstand, die Plattendicke, das Plenum usw. Für jede Art von Umgebung entwerfen wir eine spezielle Platte mit den höchsten Leistungsmerkmalen. Durch die sorgfältige Auswahl der Materialien und die Einzigartigkeit des Designs erweisen sich die schallabsorbierenden Systeme Aztec® als geeignetste Lösung für Umgebungen, wo die Liebe zum Detail von gleicher Wichtigkeit ist wie die akustische Korrektur."
     },
     "seriew" : {
         "title"         : "Serie W",
-        "desc"          : "manca traduzione"
+        "desc"          : "Schallabsorbierende Platten aus veredeltem MDF, die eigens dazu entwickelt wurden, um die Akustik in den Probesälen der Musikkapellen oder Gruppen mit elektroakusti- schen Instrumenten, Auditorien, Theatern usw. zu verbessern. Individuelle Abmes- sungen je nach architektonischen Anforderungen. Sie enthalten kein Formaldehyd, sind feuerbeständig gemäß Klasse 1 (Euroklasse: B1 - S2 - D0)"
     },
     "seriefb" : {
         "title"         : "SerieFB",
-        "desc"          : "manca traduzione"
+        "desc"          : "Schallabsorbierende Platten aus in Leinenstoff bezogenem MDF, die eigens dazu entwickelt wurden, um die Akustik in weitläufigen Bereichen, in denen das Design von gleicher Wichtigkeit ist wie die Akustik, zu verbessern. Ideal als Zwischendecke oder als anspruchsvolle Vertäfelung. Individuelle Abmessungen je nach architektoni- schen Anforderungen. Sie enthalten kein Formaldehyd, sind feuerbeständig gemäß Klasse 1 (Euroklasse: B1 - S2 - D0)"
     },
     "budget" : {
         "title"         : "Budget®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Schallabsorbierende PVC- Schaumplatte, die eigens dazu entwickelt wurde, um die Akustik in Klassenzimmern, Turnhallen, Sch- wimmbädern, Kantinen usw. zu ver- bessern. Abmessungen (mm): 1000 x 500 x 4 - 500 x 500 x 4 - weitere Maße auf Anfrage. Sie ist abwasch- bar und desinfizierbar, enthält kein Formaldehyd, ist feuerbeständig gemäß Klasse1 (Euroklasse: B1 - S2 - D0)"
     },
     "ziqqurat" : {
         "title"         : "Ziqqurat®",
-        "desc"          : "manca traduzione"
+        "desc"          : "4-schichtige schallabsorbierende PVC-Schaumplatte zur Verbesserung der Akustik in Kantinen und Klassenzimmern der Grundschulen. Abmessungen (mm): 500 x 500 x 13 - 600 x 600 x 13 - weitere Maße auf Anfrage. Sie ist abwaschbar und desinfizier- bar, enthält kein Formaldehyd, ist feuerbeständig gemäß Klasse 1 (Euroklasse: B1 - S2 - D0). Farben: Weiß, Gelb, Rot, Blau, Grün."
     },
     "clearsound" : {
         "title"         : "Clearsound®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Schallabsorbierende Platte aus transparentem Polycarbo- nat, angeordnet auf zwei Ebenen mit doppeltem Hohlraum. Sie ist an beiden Seiten aktiv. Eingesetzt wird sie dort, wo auf die akustische Korrektur eingegriffen werden muss, ohne dem Raum das natürliche Licht zu nehmen und ohne jegliche wertvollen architektonischen Merkmale zu verdecken. Maximale Abmessungen (mm): 2000 x 1000. Sie ist bruchfest, giftlos, abwaschbar und desinfizierbar, enthält kein Formaldehyd, ist feuerbeständig gemäß Klasse1 (Euroklasse: B1 -S2 - D0)"
     },
     "mon" : {
         "title"         : "Mon®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Schallabsorbierende Platte aus Polymerschaum von außergewöhnlichem Design. Sie wird wie ein Bild aufgehängt und lehnt sich frei an die Werke von Piet Mondrian an. Abmessungen (mm): 1200 x 600 x 50. Sie enthält kein Formaldehyd, ist feuerbestän- dig gemäß Klasse 1 (Euroklasse: B1 - S2 - D0)"
     }
 }
