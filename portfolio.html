@@ -35,9 +35,9 @@
         <nav id="main-nav" class="main-nav navbar-right" role="navigation">
                 <div class="navbar-collapse collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="index.html#chi-siamo">Chi siamo</a></li>
-                        <li class="nav-item"><a href="acustica.html">Acustica</a></li>
-                        <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                        <li class="nav-item"><a href="index.html#chi-siamo" data-i18n="common:header.who">Chi siamo</a></li>
+                        <li class="nav-item"><a href="acustica.html" data-i18n="common:header.acustic">Acustica</a></li>
+                        <li class="nav-item"><a href="portfolio.html" data-i18n="common:header.portfolio">Portfolio</a></li>
                         <li class="nav-item">
                             <a data-toggle="dropdown" id="langFlag" href=""><img src="img/Flags/it.png"><span>IT</span></a>
                             <ul class="dropdown-menu" id="changeLanguage" aria-labelledby="dLabel">
@@ -363,6 +363,28 @@
             "Progetto di padiglione per la diffusione della musica negli spazi aperti.<br>E’ costituito da Diffusori di Schroeder amovibili tarati per le frequenze tipiche della musica (operistica, bandistica, sinfonica, ecc.). E’ corredato di speciali Bass-traps e superfici riflettenti in legno per la corretta diffusione sonora a  distanza, è in pratica un grande amplificatore d’orchestra.<br>Diagramma di diffusione sonora",
             "Progettazione, fornitura e collaudo sistema acustico Scuola musicale di Marebbe (BZ). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. <br>Prodotti utilizzati: <b>Aztec W-Eg®</b>"
         ]
+    </script>
+    <!-- Internalization -->
+    <script type="text/javascript" src="resources/i18next/i18next.min.js"></script>
+    <script type="text/javascript" src="resources/jquery-i18next/jquery-i18next.min.js"></script>
+    <script type="text/javascript" src="resources/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="resources/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+    <script>
+        i18next
+        .use(i18nextXHRBackend)
+        .use(i18nextBrowserLanguageDetector)
+        .init({
+            ns: ['acustic', 'common'],
+            defaultNS: 'acustic',
+            backend: {
+                loadPath: 'locales/{{lng}}/{{ns}}.json',
+                crossDomain: false
+            }
+        }, function(err, t) {
+            jqueryI18next.init(i18next, $);     // Init jquery wrapper
+            $('body').localize();               // Localize all body
+            changeFlag(i18next.language);
+        });
     </script>
 </body>
 </html>

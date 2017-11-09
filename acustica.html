@@ -247,12 +247,12 @@
     <script type="text/javascript" src="resources/i18next/i18next.min.js"></script>
     <script type="text/javascript" src="resources/jquery-i18next/jquery-i18next.min.js"></script>
     <script type="text/javascript" src="resources/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript" src="resources/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
     <script>
         i18next
         .use(i18nextXHRBackend)
         .use(i18nextBrowserLanguageDetector)
         .init({
-            lng: 'en', // evtl. use language-detector https://github.com/i18next/i18next-browser-languageDetector
             ns: ['acustic', 'common'],
             defaultNS: 'acustic',
             backend: {

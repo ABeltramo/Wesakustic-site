@@ -1,0 +1,26 @@
+{
+    "first" : {
+        "mission"       : "Entwicklung von innovativen akustischen Geräten durch eine kontinuierliche Forschungsaktivität.",
+        "missionDesc"   : "Projekte, die mit maßgeschneiderten Produkten umgesetzt wurden, haben den Unterschied zu Projekten gemacht, die mit industriellen Produkten umgesetzt wurden. <br> Wesakustik bietet eine große Auswahl an hochwertigen Produkten für die akustische Isolierung, Absorption und Diffusion.",
+        "button"        : "Entdecken Sie unsere Lösungen"
+    },
+    "company" : {
+        "title"         : "Das Unternehmen",
+        "desc"          : "Das Unternehmen wurde 2004 gegründet und stellt heute eine Unternehmensrealität dar, die sich durch die kontinuierliche Forschungstätigkeit im Bereich der Akustik stufenweise zu erweitern weiß. Der Funke, der diesen Prozess ausgelöst hat, ist auf die Gegebenheit zurückzuführen, dass auf dem Markt keine selektiven, schallausbreitenden Oberflächen von architektonischem Wert angeboten werden, obwohl der Schall von passiven Prozessen der Absorptions-Reflexions-Diffusion kontrolliert werden kann, und die Absorptionsmaterialien im Wesentlichen vom industriellen Typ sind, allgemeine Eigenschaften besitzen und demnach nur schwer an spezifische Bedürfnisse anzupassen sind. Zudem verfügen sie über kein stilgerechtes Design, um in anspruchsvollen Umgebungen eingesetzt werden zu können. Die persönliche Erfahrung, die im Bereich der Physik, Musik und der Technologie der elektroakustischen Anlagen erworben werden konnte, ermöglichte die Realisierung von spezifischen Artefakten, die je nach den zu korrigierenden Umgebungen individuell gestaltet werden.<br>Zahlreiche Entwürfe, die mit eigens dafür geschaffenen Produkten umgesetzt wurden, hoben sich von den Erzeugnissen, die von anderen Designern angeboten und mit allgemein auf dem Markt verfügbaren Materialien gefertigt wurden, deutlich ab. Das erwartete Ergebnis unserer Projekte zeigt sich regelmäßig bei der Prüfung und der Grad der Zufriedenheit liegt so hoch, dass viele Kunden auch bei potenziellen Nutzern für die angebotenen Lösungen werben.<br>Aus diesem Grund sind wir in der Lage, die breiteste Auswahl an qualitativ hochwertigen Produkten für die Isolierung, die Schallabsorption und die Schallausbreitung zu bieten."
+    },
+    "staff" :{
+        "founder"       : "Sergio Villa - Gründer",
+        "founderDesc"   : "Acustic technician (Aut. Reg. N. 346 - DA 10.04)<br>Mitglied SSA - SGA (Schweizerische Gesellshaft fϋr Akustik) N. E 496",
+        "cofounder"     : "Ermann Frattini",
+        "cofounderDesc" : "Material Manager<br>Co-founder.<br>Experte für Strategie und Personal",
+        "architect"     : "Arch. Christian Fedele",
+        "architectDesc" : "Technischer lokaler Berater: Trentino Alto Adige<br>Akustik-Techniker"
+    },
+    "whatWeDo" : {
+        "title"         : "Unsere Tätigkeit",
+        "prof"          : "Fachbereich",
+        "profDesc"      : "Prognose und Bewertung der Lärmbelästigung und Lärmsituation;<br>Prognoseberechnung und Prüfung der bauakustischen Eigenschaften der Gebäude;<br>Lärmmessung, Prognosemodelle, Schallkataster;<br>Überprüfung des Lärms am Arbeitsplatz",
+        "ind"           : "Industriebereich",
+        "indDesc"       : "Entwicklung, Herstellung und Einbau von schallabsorbierenden Platten und schalldämmendem Material für Räumlichkeiten;<br>Entwicklung und Installation von aktiven Geräten für die Tonverdeckung und -beseitigung;<br>Schallschutzwände, Schalldämpfer und Systeme zur Reduzierung von Außengeräuschen<br>Lieferung, Montage und Prüfung: elektroakustische Systeme und Bühnenbeleuchtungsanlagen, Videoanlagen und Systeme für Videokonferenzen, Lärmreduzierungssysteme"
+    }
+}
