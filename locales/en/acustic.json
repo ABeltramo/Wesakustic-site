@@ -1,31 +1,31 @@
 {
     "first" : {
         "title"         : "Acoustic",
-        "subtitle"      : "manca traduzione",
-        "desc"          : "manca traduzione"
+        "subtitle"      : "We manufacture sound absorbing panels with cavity resonance",
+        "desc"          : "They are particular types of acoustic instruments able to select the frequencies to be absorbed. Made according to a geometric scheme adapted to the various frequencies, they work according to the Helmholtz Resonator system together with the principle of the vibrating panel. The high absorption coefficient \"α\" is achieved thanks to the versatility of the design that, while keeping the design constant, varies its specific parameters: diameters of the holes and of the slots, their distance, the thickness of the panel, the plenum, etc. . For each type of environment we design a specific panel, with the maximum performance characteristics. The careful choice of materials combined with the singularity of the design, make Aztec® sound-absorbing systems the best result achievable for environments where the attention to detail is fundamental just like the acoustic correction."
     },
     "seriew" : {
-        "title"         : "Serie W",
-        "desc"          : "manca traduzione"
+        "title"         : "W Series",
+        "desc"          : "Sound-absorbing panels in melamine faced MDF, specially designed to improve acoustics in test rooms of musical bands or with electro-acoustic instruments, auditoriums, theaters, etc.<br>Dimensions customized according to architectural needs.<br>They don’t contain formaldehyde, and are fireproof in Class 1 (Euroclass: B1 - S2 - D0)"
     },
     "seriefb" : {
-        "title"         : "SerieFB",
-        "desc"          : "manca traduzione"
+        "title"         : "FB Series",
+        "desc"          : "Sound-absorbing panels in MDF covered with linen fabric, specially designed to improve acoustics in large rooms where aesthetics are as important as acoustics. Ideal as a false ceiling or valuable wall paneling.<br>Dimensions customized according to architectural needs.<br>They don’t contain formaldehyde, and are fireproof in Class 1 (Euroclass: B1 - S2 - D0)"
     },
     "budget" : {
         "title"         : "Budget®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Sound-absorbing panel in PVC foam, specially designed to improve acoustics in classrooms, gyms, swimming pools, canteens, etc.<br>Size (mm): 1000 x 500 x 4 - 500 x 500 x 4 - other sizes on request.<br>It’s washable and sanitizable. It doesn’t contain formaldehyde, and is fireproof in Class1 (Euroclass: B1 - S2 - D0)"
     },
     "ziqqurat" : {
         "title"         : "Ziqqurat®",
-        "desc"          : "manca traduzione"
+        "desc"          : "4-layer sound absorbing panel in PVC foam, designed to improve acoustics in canteens and primary school classrooms.<br>Size (mm): 500 x 500 x 13 - 600 x 600 x 13 - other sizes on request.<br>It’s washable and sanitized.<br>It doesn’t contain formaldehyde, and fireproof in Class 1 (Euroclass: B1 - S2 - D0).<br>Colors: White, Yellow, Red, Blue, Green."
     },
     "clearsound" : {
         "title"         : "Clearsound®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Transparent polycarbonate sound-absorbing panel , arranged on two layers with double cavity. It is active on both sides. It is used where there is the need to intervene with the acoustic correction without removing the natural light and without covering any valuable architectural features.<br>Maximum size (mm): 2000 x 1000.<br>It’s unbreakable, non-toxic, washable and sanitizable.<br>It doesn’t contain formaldehyde, and fireproof in Class1 (Euroclass: B1 - S2 - D0)"
     },
     "mon" : {
         "title"         : "Mon®",
-        "desc"          : "manca traduzione"
+        "desc"          : "Polymer foam sound-absorbing panel with particular aesthetic value. It hangs like a painting and is freely inspired by the works of Piet Mondrian.<br>Size (mm): 1200 x 600 x 100.<br>It doesn’t contain formaldehyde, and fireproof in Class 1 (Euroclass: B1 - S2 - D0)"
     }
 }
