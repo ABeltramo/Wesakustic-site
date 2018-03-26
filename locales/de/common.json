@@ -2,6 +2,7 @@
     "header" : {
         "who"           : "Wer",
         "acustic"       : "Akustisch",
-        "portfolio"     : "Portfolio"
+        "portfolio"     : "Portfolio",
+        "works"         : "Funktioniert"
     }
 }

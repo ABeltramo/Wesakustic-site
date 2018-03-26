@@ -2,6 +2,7 @@
     "header" : {
         "who"           : "Company",
         "acustic"       : "Acoustic",
-        "portfolio"     : "Portfolio"
+        "portfolio"     : "Portfolio",
+        "works"         : "Works"
     }
 }
