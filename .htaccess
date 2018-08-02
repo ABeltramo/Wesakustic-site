@@ -7,3 +7,10 @@ Header set Cache-Control "max-age=31536000, public"
 <filesMatch ".(html|css|js)$">
 Header set Cache-Control "max-age=86400, public"
 </filesMatch>
+
+# Redirect everything on HTTPS
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
