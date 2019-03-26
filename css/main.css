@@ -1,12 +1,12 @@
-html,body{
-    margin:0;
-    width:100%;
+html, body {
+    margin: 0;
+    width: 100%;
     height: 100%;
-    min-height:100%;
+    min-height: 100%;
 }
 
 body {
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444444;
     font-weight: 400;
     font-style: normal;
@@ -16,36 +16,36 @@ body {
 }
 
 a, a:focus, a:hover, a:visited {
-    color:white;
-    text-decoration:none;
+    color: white;
+    text-decoration: none;
 }
 
-a:hover, a[href^="tel"]:hover{
-    text-decoration:underline;
+a:hover, a[href^="tel"]:hover {
+    text-decoration: underline;
 }
 
 /* Remove styling from ios */
-a[href^="tel"]{
-    color:inherit;
-    text-decoration:none;
+a[href^="tel"] {
+    color: inherit;
+    text-decoration: none;
 }
 
-h1{
+h1 {
     font-size: 3.9em;
     text-shadow: 1px 1px 1px #E4321E;
 }
 
-.btn-default{
+.btn-default {
     background: #A30404;
     color: white;
 }
 
-.btn-default:hover, .btn-default:active{
+.btn-default:hover, .btn-default:active {
     background: #D40808;
     color: white;
 }
 
-.mainColor{
+.mainColor {
     color: #D40808 !important;
 }
 
@@ -53,7 +53,7 @@ h1{
  * HEADER 
  *****************************************/
 
- .header{
+.header {
     position: fixed;
     z-index: 99;
     top: 0;
@@ -63,26 +63,26 @@ h1{
     color: white;
 }
 
-.headerVisible{
+.headerVisible {
     background-color: white;
     color: #D40808;
-    box-shadow: 0 10px 40px 0 rgba(62,57,107,0.07),0 2px 9px 0 rgba(62,57,107,0.06);
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
 }
 
 .headerVisible .navbar-nav > li a,
 .headerVisible .nav > li > a:focus,
 .headerVisible .nav > li > a:hover,
 .headerVisible .nav > li > a:visited,
-.headerVisible .logo p{
+.headerVisible .logo p {
     color: #D40808
 }
 
-.header .logo{
+.header .logo {
     height: 100%;
     margin-left: 50px;
 }
 
-.header .logo p{
+.header .logo p {
     font-weight: 600;
     font-size: 2em;
     padding-top: 15px;
@@ -90,11 +90,11 @@ h1{
     width: 300px;
 }
 
-.navbar-nav > li{
+.navbar-nav > li {
     margin-top: 10px;
 }
 
-.navbar-nav > li a{
+.navbar-nav > li a {
     color: white;
 }
 
@@ -104,30 +104,36 @@ h1{
     color: white;
 }
 
-.logo p{
+.logo p {
     color: white;
 }
 
-.logo a:hover{
+.logo a:hover {
     text-decoration: none;
+}
+
+.nav-item img {
+    height: 25px;
+    margin-right: 20px;
+    margin-top: -2px;
 }
 
 /**************************************** 
  * CONTENT 
  *****************************************/
 
-.bigTitle{
+.bigTitle {
     font-size: 100px;
 }
 
-.bigContainer{
+.bigContainer {
     min-height: 100%;
     text-align: center;
     position: relative;
     padding: 10%;
 }
 
-.mainBackground{
+.mainBackground {
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 200px;
@@ -139,13 +145,13 @@ h1{
  * STRIPES 
  *****************************************/
 
-#stripes{
+#stripes {
     position: absolute;
     width: 100%;
     height: 100%;
     transform: skewY(-12deg);
     transform-origin: 0;
-    background: linear-gradient(150deg,#D81414 15%,#E43C2A 50%,#FF7171 94%);
+    background: linear-gradient(150deg, #D81414 15%, #E43C2A 50%, #FF7171 94%);
 }
 
 #stripes :nth-child(1) {
@@ -169,27 +175,28 @@ h1{
     background: #D81717;
 }
 
-#stripes span{
+#stripes span {
     position: absolute;
     height: 200px;
 }
 
 #developers-first {
-    position:relative;
-    padding-top:110px
-   }
-#developers-first:before {
-    content:"";
-    position:absolute;
-    z-index:-1;
-    width:100%;
-    height:180%;
-    top:0;
-    transform:skewY(-12deg);
-    background:#f5faff;
+    position: relative;
+    padding-top: 110px
 }
 
-.backColored{
+#developers-first:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 180%;
+    top: 0;
+    transform: skewY(-12deg);
+    background: #f5faff;
+}
+
+.backColored {
     background: transparent;
     color: white;
     position: relative;
@@ -197,26 +204,26 @@ h1{
     height: 1100px;
 }
 
-.backColored .title{
+.backColored .title {
     color: white;
     margin: 50px;
 }
 
-.backColored:before{
-    content:"";
-    position:absolute;
-    width:100%;
-    height:110%;
-    background:#FE5151;
+.backColored:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 110%;
+    background: #FE5151;
     z-index: -1;
-    transform:skewY(+10deg);
+    transform: skewY(+10deg);
 }
 
-.backWhite{
+.backWhite {
     background-color: #FFF6F6;
 }
 
-.backTransparent{
+.backTransparent {
     color: white;
 }
 
@@ -224,21 +231,21 @@ h1{
  * PORTFOLIO 
  *****************************************/
 
-#portfolio img{
+#portfolio img {
     height: 100%;
 }
 
-#portfolio a{
+#portfolio a {
     overflow: hidden;
     height: 220px;
     padding: 5px;
 }
 
-#portfolio .thumbnail{
+#portfolio .thumbnail {
     position: relative
 }
 
-#portfolio .thumbnail-cover{
+#portfolio .thumbnail-cover {
     position: absolute;
     width: 95.5%;
     height: 95.5%;
@@ -246,25 +253,25 @@ h1{
     background-color: rgba(0, 0, 0, 0);
 }
 
-#portfolio .thumbnail-cover:hover{
-   animation-name: slowShow;
-   animation-duration: 0.5s;
-   background-color: rgba(0, 0, 0, 0.70);
+#portfolio .thumbnail-cover:hover {
+    animation-name: slowShow;
+    animation-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.70);
 }
 
-#modalPortfolio img{
-   max-width: 100%;
-   max-height: 100%;
-   z-index: 999;
-   position: relative;
+#modalPortfolio img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 999;
+    position: relative;
 }
 
-#modalPortfolio .imgDesc{
+#modalPortfolio .imgDesc {
     margin-top: 40px;
     font-size: 26px;
 }
 
-#modalPortfolio .btnOverImg{
+#modalPortfolio .btnOverImg {
     z-index: 99999;
     font-size: 40px;
     color: white;
@@ -274,15 +281,15 @@ h1{
     text-shadow: 1px 1px 3px black;
 }
 
-#modalPortfolio #btnPrevImg{
+#modalPortfolio #btnPrevImg {
     left: 0;
 }
 
-#modalPortfolio #btnNextImg{
+#modalPortfolio #btnNextImg {
     right: 0;
 }
 
-#loadingIcon{
+#loadingIcon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -293,36 +300,40 @@ h1{
     z-index: 9;
 }
 
-button.close{
-   position: absolute;
-   top: 0;
-   right: 8px;
-   font-size: 40px;
-   z-index: 999;
+button.close {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    font-size: 40px;
+    z-index: 999;
 }
 
-a.thumbnail:hover{
-   border-color: black;
+a.thumbnail:hover {
+    border-color: black;
 }
 
 @keyframes slowShow {
-   0%   {background-color: rgba(0, 0, 0, 0);}
-   100% {background-color: rgba(0, 0, 0, 0.70);}
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.70);
+    }
 }
 
-#staff .thumbnail{
+#staff .thumbnail {
     margin-top: 25px;
 }
 
-#portfolioWrapper{
-    height:100%;
+#portfolioWrapper {
+    height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-#portfolioWrapper td{
+#portfolioWrapper td {
     vertical-align: middle;
     text-align: center;
 }
@@ -331,68 +342,68 @@ a.thumbnail:hover{
  * ACUSTICA 
  *****************************************/
 
-.acustica h1{
+.acustica h1 {
     margin-top: 150px;
     text-align: center;
     color: white;
 }
 
-.acustica .bigContainer{
+.acustica .bigContainer {
     margin: 0;
     padding: 0;
     text-align: justify;
 }
 
-.acustica .bigContainer h1.firstTitle{
+.acustica .bigContainer h1.firstTitle {
     margin-top: 125px;
     margin-bottom: 25px;
     text-align: center;
 }
 
-.pannello:before{
-    content:"";
-    position:absolute;
-    width:100%;
+.pannello:before {
+    content: "";
+    position: absolute;
+    width: 100%;
     min-height: 900px;
     height: 110%;
     z-index: -1;
 }
 
-.pannello1:before{
-    background:#FE5151;
-    transform:skewY(-5deg);
+.pannello1:before {
+    background: #FE5151;
+    transform: skewY(-5deg);
 }
 
-.pannello3:before{
-    background:rgb(255, 65, 65);
-    transform:skewY(5deg);
+.pannello3:before {
+    background: rgb(255, 65, 65);
+    transform: skewY(5deg);
     margin-top: 100px;
 }
 
-.pannello5{
+.pannello5 {
     background-color: #FE5151;
     padding-bottom: 30px !important;
 }
 
-.pannello5 h1{
+.pannello5 h1 {
     font-size: 50px;
     margin-top: 100px;
 }
 
-.pannello5:before{
-    background:#FE5151;
-    transform:skewY(-2deg);
+.pannello5:before {
+    background: #FE5151;
+    transform: skewY(-2deg);
 }
 
-.pannello1 .pannelloWrapper{
+.pannello1 .pannelloWrapper {
     background-color: rgb(224, 60, 60);
 }
 
-.pannello2 .pannelloWrapper{
+.pannello2 .pannelloWrapper {
     background-color: whitesmoke;
 }
 
-.pannelloWrapper{
+.pannelloWrapper {
     width: 100%;
     margin-top: 25px;
     overflow-y: auto;
@@ -401,7 +412,7 @@ a.thumbnail:hover{
     text-align: justify;
 }
 
-.thumbContainer{
+.thumbContainer {
     overflow-y: auto;
     margin: 20px auto auto;
     width: 1000px;
@@ -413,30 +424,30 @@ a.thumbnail:hover{
  * FOOTER 
  *****************************************/
 
-footer{
+footer {
     min-height: 200px !important;
     padding-top: 25px;
     text-align: center;
     font-size: 20px;
     background-color: #D81414;
-    -webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
     color: white;
 }
 
-footer .littleBorder{
+footer .littleBorder {
     border-right: 2px solid white;
-    border-left: 0;                 /* Safari need this */
+    border-left: 0; /* Safari need this */
     border-image: linear-gradient(to bottom, white, #D81414) 1 100%;
 }
 
-.copyright{
-    text-align:center;
-    padding:15px;
-    -webkit-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
-    box-shadow:inset 0 1px 2px rgba(0, 0, 0, 0.3);
+.copyright {
+    text-align: center;
+    padding: 15px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
     background-color: #A00707;
     color: white;
 }
@@ -446,16 +457,16 @@ footer .littleBorder{
  *****************************************/
 
 /* Mobile */
-@media(max-width:767px){
+@media (max-width: 767px) {
 
     .header {
         height: 50px;
     }
 
-    .header .option{
+    .header .option {
         top: 16px;
         font-size: 0.8em;
-    } 
+    }
 
     .header .logo p {
         font-weight: 600;
@@ -465,26 +476,26 @@ footer .littleBorder{
         width: 250px;
     }
 
-    .header .logo{
+    .header .logo {
         height: 100%;
         margin-left: 5px;
     }
 
-    .mainBackground{
+    .mainBackground {
         padding-top: 50px;
     }
 
-    .mainBackground h2{
+    .mainBackground h2 {
         font-size: 25px;
     }
 
-    .toggleMenu{
+    .toggleMenu {
         margin-right: 10px;
         font-size: 1.5em;
         margin-top: 12px;
     }
 
-    .navbar-collapse{
+    .navbar-collapse {
         width: 100%;
         background-color: white;
     }
@@ -492,56 +503,56 @@ footer .littleBorder{
     .navbar-nav > li a,
     .nav > li > a:focus,
     .nav > li > a:hover,
-    .nav > li > a:visited{
+    .nav > li > a:visited {
         color: #D40808
     }
 
-    .mainBackground h4{
+    .mainBackground h4 {
         font-size: 16px;
     }
 
-    .bigTitle{
+    .bigTitle {
         font-size: 70px;
     }
 
-    .backColored{
+    .backColored {
         height: 1600px;
     }
 
-    .backColored:before{
-        height:100%;
+    .backColored:before {
+        height: 100%;
     }
 
-    .littleBorder{
+    .littleBorder {
         border-width: 0 !important;
     }
 }
 
 /* Tablet */
-@media(min-width:768px ) and (max-width: 992px){
-        .backColored{
-            height: 700px;
-        }
+@media (min-width: 768px ) and (max-width: 992px) {
+    .backColored {
+        height: 700px;
+    }
 }
 
 /* Language selector */
-.dropdown-menu{
+.dropdown-menu {
     min-width: 80px;
 }
 
-.dropdown-menu > li > a{
+.dropdown-menu > li > a {
     color: #D40808;
 }
 
-.navbar-nav > li > .dropdown-menu{
+.navbar-nav > li > .dropdown-menu {
     margin-top: 9px;
 }
 
-.dropdown-menu li{
+.dropdown-menu li {
     margin: 15px;
 }
 
-.nav .open > a, .nav .open > a:focus, .nav .open > a:hover{
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
     background-color: transparent;
 }
 
@@ -549,14 +560,22 @@ footer .littleBorder{
 .glyphicon-refresh-animate {
     -animation: spin 1s infinite linear;
     -webkit-animation: spin2 1s infinite linear;
-  }
-  
-  @keyframes spin {
-    from { transform: scale(1) rotate(0deg);}
-    to { transform: scale(1) rotate(360deg);}
-  }
-  
-  @-webkit-keyframes spin2 {
-    from { -webkit-transform: rotate(0deg);}
-    to { -webkit-transform: rotate(360deg);}
-  }
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}

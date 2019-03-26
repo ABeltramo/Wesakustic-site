@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta http-equiv="Cache-Control" content="max-age=86400, public" />
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=86400, public"/>
     <meta name="description" content="">
     <meta name="author" content="ABeltramo">
     <title>Wesakustik</title>
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="" />
+    <meta property="og:type" content="article"/>
+    <meta property="og:title" content=""/>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="resources/bootstrap/dist/css/bootstrap.min.css">
@@ -21,385 +22,434 @@
     <link href='resources/animate.css/animate.min.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <!-- Header LARGE-->
-    <nav id="header" class="header">
-        <div class="logo pull-left">
-            <a href="index.html">
-                <img src="img/OnlyLogo.png" class="pull-left" height="100%">
-                <p>WESAKUSTIK</p>
+<!-- Header LARGE-->
+<nav id="header" class="header">
+    <div class="logo pull-left" style="margin-top: 5px;">
+        <a href="index.html">
+            <img src="img/OnlyLogo.png" class="pull-left" height="90%">
+            <p>WESAKUSTIK</p>
+        </a>
+    </div>
+    <div class="pull-right toggleMenu hidden-sm hidden-md hidden-lg" data-toggle="collapse" href="#navbar-collapse"
+         aria-expanded="false" aria-controls="navbar-collapse">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </div>
+    <nav id="main-nav" class="main-nav navbar-right" role="navigation">
+        <div class="navbar-collapse collapse" id="navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a href="index.html#chi-siamo" data-i18n="common:header.who">Chi siamo</a></li>
+                <li class="nav-item"><a href="acustica.html" data-i18n="common:header.acustic">Acustica</a></li>
+                <li class="nav-item"><a href="portfolio.html" data-i18n="common:header.portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="lavori.html" data-i18n="common:header.works">Lavori</a></li>
+                <li class="nav-item">
+                    <a data-toggle="dropdown" id="langFlag" href=""><img src="img/Flags/it.png"><span>IT</span></a>
+                    <ul class="dropdown-menu" id="changeLanguage" aria-labelledby="dLabel">
+                        <li lang="it"><a href=""><img src="img/Flags/it.png"> IT</a></li>
+                        <li lang="en"><a href=""><img src="img/Flags/gb.png"> EN</a></li>
+                        <li lang="de"><a href=""><img src="img/Flags/de.png"> DE</a></li>
+                    </ul>
+                </li>
+            </ul><!--//nav-->
+        </div><!--//navabr-collapse-->
+    </nav><!--//main-nav-->
+</nav><!-- //Header LARGE -->
+
+<div class="col-xs-12 container bigContainer">
+    <h1 class="mainColor">Portfolio</h1>
+    <div id="portfolio">
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano01.jpg">
             </a>
         </div>
-        <div class="pull-right toggleMenu hidden-sm hidden-md hidden-lg" data-toggle="collapse" href="#navbar-collapse" aria-expanded="false" aria-controls="navbar-collapse">
-            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano02.jpg">
+            </a>
         </div>
-        <nav id="main-nav" class="main-nav navbar-right" role="navigation">
-                <div class="navbar-collapse collapse" id="navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item"><a href="index.html#chi-siamo" data-i18n="common:header.who">Chi siamo</a></li>
-                        <li class="nav-item"><a href="acustica.html" data-i18n="common:header.acustic">Acustica</a></li>
-                        <li class="nav-item"><a href="portfolio.html" data-i18n="common:header.portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a href="lavori.html" data-i18n="common:header.works">Lavori</a></li>
-                        <li class="nav-item">
-                            <a data-toggle="dropdown" id="langFlag" href=""><img src="img/Flags/it.png"><span>IT</span></a>
-                            <ul class="dropdown-menu" id="changeLanguage" aria-labelledby="dLabel">
-                                <li lang="it"><a href=""><img src="img/Flags/it.png"> IT</a></li>
-                                <li lang="en"><a href=""><img src="img/Flags/gb.png"> EN</a></li>
-                                <li lang="de"><a href=""><img src="img/Flags/de.png"> DE</a></li>
-                            </ul>
-                        </li>
-                    </ul><!--//nav-->
-                </div><!--//navabr-collapse-->
-            </nav><!--//main-nav-->
-    </nav><!-- //Header LARGE -->
-
-    <div class="col-xs-12 container bigContainer">
-        <h1 class="mainColor">Portfolio</h1>
-        <div id="portfolio">
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina04.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina05.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_04.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="9" data-src="img/Portfolio/thumb/ProgettoP.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="9" data-src="img/Portfolio/thumb/ProgettoP1.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB1.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB2.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB3.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload"description="5"  data-src="img/Portfolio/thumb/ProveB4.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="10" data-src="img/Portfolio/thumb/Scuola1.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="10" data-src="img/Portfolio/thumb/Scuola2.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero04.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora04.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora05.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla04.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna01.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna02.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna03.jpg">
-                </a>
-            </div>
-            <div class="col-sm-4 col-md-3">
-                <a class="thumbnail"><div class="thumbnail-cover"></div>
-                    <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna04.jpg">
-                </a>
-            </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="0" data-src="img/Portfolio/thumb/Bolzano03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina04.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="1" data-src="img/Portfolio/thumb/Cortina05.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="8" data-src="img/Portfolio/thumb/DGI_Milano_04.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="9" data-src="img/Portfolio/thumb/ProgettoP.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="9" data-src="img/Portfolio/thumb/ProgettoP1.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB1.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB2.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB3.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="5" data-src="img/Portfolio/thumb/ProveB4.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="10" data-src="img/Portfolio/thumb/Scuola1.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="10" data-src="img/Portfolio/thumb/Scuola2.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="2" data-src="img/Portfolio/thumb/Tesero04.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="3" data-src="img/Portfolio/thumb/Toscanini03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora04.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="6" data-src="img/Portfolio/thumb/Valdaora05.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="4" data-src="img/Portfolio/thumb/Verla04.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna01.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna02.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna03.jpg">
+            </a>
+        </div>
+        <div class="col-sm-4 col-md-3">
+            <a class="thumbnail">
+                <div class="thumbnail-cover"></div>
+                <img class="lazyload" description="7" data-src="img/Portfolio/thumb/Vigna04.jpg">
+            </a>
         </div>
     </div>
+</div>
 
-    <div class="modal fade" id="modalPortfolio" tabindex="-1" role="dialog">
-        <div class="modal-dialog" style="width:90%; height:90%;" role="document">
-            <div class="modal-content" style="width:100%; height:100%;">
-                <div class="modal-body" style="padding:0; height: 100%;">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <div class="col-sm-8" style="padding:0; height:100%; background-color: black;">
-                        <table id="portfolioWrapper"> <!-- Needed for center vertically -->
-                            <tr>
-                                <td>
-                                    <span id="btnPrevImg" class="glyphicon glyphicon-chevron-left btnOverImg"></span>
-                                    <img id="bigImg" src="">
-                                    <span id="btnNextImg" class="glyphicon glyphicon-chevron-right btnOverImg"></span>
-                                </td>
-                            </tr>
-                        </table>
-                        <div id="loadingIcon"><span class="glyphicon glyphicon-refresh"></span></div>
-                    </div>
-                    <div class="col-sm-4 imgDesc" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam congue lectus eu nibh imperdiet lobortis et at velit. In lorem nisl, convallis ut quam id, vulputate ultrices justo. Aliquam lacinia nisl enim, vitae lobortis felis laoreet ut. Aliquam vehicula neque nec urna feugiat dapibus id eget dui. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque id elit augue. Aliquam tincidunt tempus enim at suscipit. Aliquam in tempus arcu. </div>
+<div class="modal fade" id="modalPortfolio" tabindex="-1" role="dialog">
+    <div class="modal-dialog" style="width:90%; height:90%;" role="document">
+        <div class="modal-content" style="width:100%; height:100%;">
+            <div class="modal-body" style="padding:0; height: 100%;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <div class="col-sm-8" style="padding:0; height:100%; background-color: black;">
+                    <table id="portfolioWrapper"> <!-- Needed for center vertically -->
+                        <tr>
+                            <td>
+                                <span id="btnPrevImg" class="glyphicon glyphicon-chevron-left btnOverImg"></span>
+                                <img id="bigImg" src="">
+                                <span id="btnNextImg" class="glyphicon glyphicon-chevron-right btnOverImg"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div id="loadingIcon"><span class="glyphicon glyphicon-refresh"></span></div>
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-
-    <footer class="col-xs-12">
-            <div class="col-sm-4 littleBorder" style="padding-top: 30px;">
-                PIVA: 02516150030
-                <br>CF: 02516150030
-                <br>REA: NO 241168            
-            </div>
-            <div class="col-sm-4 littleBorder">
-                    <h2>WESAKUSTIK</h2>
-                    Via Trieste 19
-                    <br>28041 Arona NO
+                <div class="col-sm-4 imgDesc" style="text-align:justify">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Etiam congue lectus eu nibh imperdiet lobortis et at velit. In lorem nisl,
+                    convallis ut quam id, vulputate ultrices justo. Aliquam lacinia nisl enim, vitae lobortis felis
+                    laoreet ut. Aliquam vehicula neque nec urna feugiat dapibus id eget dui. Orci varius natoque
+                    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque id elit augue. Aliquam
+                    tincidunt tempus enim at suscipit. Aliquam in tempus arcu.
                 </div>
-            <div class="col-sm-4" style="padding-top: 30px;">
-                <a href="mailto:mail@wesakustik.com">mail@wesakustik.com</a>
-                <br><a href="mailto:wesakustic@pec.it">wesakustic@pec.it</a>
-                <br><a href="tel:+390323086108">+39 0323 086108</a>            
             </div>
-        </footer>
-        <div class="copyright col-xs-12">Copyright © <a href="http://abeltra.me/">ABeltramo</a> 2017</div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 
-    <!-- Librerie -->
-    <script type='text/javascript' src="resources/jquery/dist/jquery.min.js"></script>
-    <script type='text/javascript' src="resources/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/effects.js"></script>
-    <script type="text/javascript" src="resources/wowjs/dist/wow.min.js"></script> 
-    <script type="text/javascript" src="resources/lazyload/lazyload.min.js"></script>        
-    <script>new WOW().init();</script>
-    <script>
-        var DoScroll = false;
-        $(".header").addClass("headerVisible");
+<footer class="col-xs-12">
+    <div class="col-sm-4 littleBorder" style="padding-top: 30px;">
+        PIVA: 02516150030
+        <br>CF: 02516150030
+        <br>REA: NO 241168
+    </div>
+    <div class="col-sm-4 littleBorder">
+        <h2>WESAKUSTIK</h2>
+        Via Orelli N° 8
+        <br>Locarno (CH)
+    </div>
+    <div class="col-sm-4" style="padding-top: 30px;">
+        <a href="mailto:mail@wesakustik.com">mail@wesakustik.com</a>
+        <br><a href="mailto:wesakustic@pec.it">wesakustic@pec.it</a>
+        <br><a href="tel:0041774884924">0041 77 4884924</a>
+    </div>
+</footer>
+<div class="copyright col-xs-12">Copyright © <a href="http://abeltra.me/">ABeltramo</a> 2017</div>
 
-        var currentIMG = null;
+<!-- Librerie -->
+<script type='text/javascript' src="resources/jquery/dist/jquery.min.js"></script>
+<script type='text/javascript' src="resources/bootstrap/dist/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/effects.js"></script>
+<script type="text/javascript" src="resources/wowjs/dist/wow.min.js"></script>
+<script type="text/javascript" src="resources/lazyload/lazyload.min.js"></script>
+<script>new WOW().init();</script>
+<script>
+    var DoScroll = false;
+    $(".header").addClass("headerVisible");
 
-        function loadIMG(div){
-            $("#loadingIcon span").addClass("glyphicon-refresh-animate");                    //Start loading
-            var img = $(div).find("img").attr("data-src").replace(/^.*[\\\/]/, '');
-            var desc = parseInt($(div).find("img").attr("description"));
-            $(".imgDesc").html(descriptions[i18next.language][desc]);
-            $("#bigImg").attr("src","img/Portfolio/"+img);
-            $("#bigImg").css("visibility","hidden");
-            $("#bigImg").on("load",function(){
-                $("#bigImg").css("visibility","visible");
-                $("#loadingIcon span").removeClass("glyphicon-refresh-animate");             // Stop loading
-            })
-            $("#modalPortfolio").modal("show");
-        }
+    var currentIMG = null;
 
-        $("#portfolio .thumbnail").click(function(e){
-            currentIMG = $(e.target).parent()
+    function loadIMG(div) {
+        $("#loadingIcon span").addClass("glyphicon-refresh-animate");                    //Start loading
+        var img = $(div).find("img").attr("data-src").replace(/^.*[\\\/]/, '');
+        var desc = parseInt($(div).find("img").attr("description"));
+        $(".imgDesc").html(descriptions[i18next.language][desc]);
+        $("#bigImg").attr("src", "img/Portfolio/" + img);
+        $("#bigImg").css("visibility", "hidden");
+        $("#bigImg").on("load", function () {
+            $("#bigImg").css("visibility", "visible");
+            $("#loadingIcon span").removeClass("glyphicon-refresh-animate");             // Stop loading
+        })
+        $("#modalPortfolio").modal("show");
+    }
+
+    $("#portfolio .thumbnail").click(function (e) {
+        currentIMG = $(e.target).parent()
+        loadIMG(currentIMG);
+    });
+
+    $("#btnPrevImg").click(function (e) {
+        if ($(currentIMG).parent().prev().length > 0) {
+            currentIMG = $(currentIMG).parent().prev().find(".thumbnail");
             loadIMG(currentIMG);
-        });
-
-        $("#btnPrevImg").click(function(e){
-            if($(currentIMG).parent().prev().length > 0){
-                currentIMG = $(currentIMG).parent().prev().find(".thumbnail");
-                loadIMG(currentIMG);
-            }
-        })
-
-        $("#btnNextImg").click(function(e){
-            if($(currentIMG).parent().next().length > 0){
-                currentIMG = $(currentIMG).parent().next().find(".thumbnail");
-                loadIMG(currentIMG);
-            }
-        })
-
-        // Lazy load
-        window.addEventListener("load", function(event) {
-            lazyload();
-        });
-
-        descriptions = {
-            "it" : [
-                "Progettazione, realizzazione e collaudo correzione acustica Ufficio Anagrafe Bolzano <br><b>Pannelli Aztec®Eg</b>",
-                "Progettazione, realizzazione e collaudo sistema acustico Sala Prove Banda Musicale di Kurtinig a.d.w. (BZ) <br><b>Pannelli Aztec Wood®</b>",
-                "Progettazione, fornitura e collaudo sistema acustico Scuola di musica “Il Pentagramma”  di Tesero (TN). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. E’ stata inoltre affrontata con successo l’acustica della sala manifestazioni e di quella destinata ai saggi musicali al piano attico, con l’impiego di pannelli trasparenti per non nascondere il soffitto in travi di legno particolarmente pregiato. <br>Prodotti utilizzati: <b>Concretesorber®, Aztec Wood® e Clearsound®</b>",
-                "Progettazione, fornitura e collaudo isolamento e correzione acustica Scuola di musica “A. Toscanini”  di Verbania. <br>L’intervento ha riguardato l’isolamento del pavimento e quello tra le aule, la correzione acustica delle aule didattiche e dell’aula saggi con l’impiego di pannelli fonoassorbenti a risonanza di cavità <b>Aztec HPL®</b>, Diffusori di Schroeder e Bass-traps.",
-                "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda Verla di Giovo (TN). <br>Controsoffitto acustico con pannelli: <b>Concretesorber®. Bass-traps e assorbitori alle pareti.</b>",
-                "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda di Marebbe (BZ) <br><b>Controsoffitto acustico con Aztec WaveFx®</b>",
-                "Progettazione, fabbricazione e collaudo di sistema acustico realizzato con pannelli trasparenti <b>Clearsound/DL®</b> <br> Scuola Primaria Valdaora (BZ). <br>Particolare tipo di intervento di correzione acustica per adattare gli spazi comuni a locali didattici senza togliere la luce proveniente dal vano scala. I pannelli realizzati sono costituiti da due superfici assorbenti  contrapposte in modo da raddoppiarne l’efficacia.",
-                "Progettazione, fabbricazione e collaudo di sistema acustico per sala riunioni della Sede Vignaioli del Trentino, Aldeno (TN).<br>Soffitto con pannelli <b>Aztec HPL®</b>",
-                "Progettazione, fabbricazione e collaudo di sistema acustico per sale riunione e videoconferenze. Uffici DGI, Milano .<br>Soffitto con pannelli in <b>Forex Cst®</b> e parete in doghe di legno rivestite in tessuto di lino.",
-                "Progetto di padiglione per la diffusione della musica negli spazi aperti.<br>E’ costituito da Diffusori di Schroeder amovibili tarati per le frequenze tipiche della musica (operistica, bandistica, sinfonica, ecc.). E’ corredato di speciali Bass-traps e superfici riflettenti in legno per la corretta diffusione sonora a  distanza, è in pratica un grande amplificatore d’orchestra.<br>Diagramma di diffusione sonora",
-                "Progettazione, fornitura e collaudo sistema acustico Scuola musicale di Marebbe (BZ). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. <br>Prodotti utilizzati: <b>Aztec W-Eg®</b>"
-            ],
-            "de" : [
-                "Entwicklung, Realisierung und Prüfung der akustischen Korrektur Einwohnermeldeamt Bozen <br><b> Platten Aztec®Eg</b>",
-                "Entwicklung, Realisierung und Prüfung des akustischen Systems des Probesaals der Musikkapelle von Kurtinig an der Weinstraße (BZ) <br><b> Platten Aztec Wood®</b>",
-                "Entwicklung, Lieferung und Prüfung des akustischen Systems Musikschule „Il Pentagramma“ in Tesero (TN).  Die Maßnahmen betrafen Bereiche mit unterschiedlichen Eigenschaften: Lehrzimmer für Blas, Saiten und Schlaginstrumente, Klaviere usw. Zudem wurde auch die Akustik des Veranstaltungsraums und des Saals für musikalische Darbietungen im Dachgeschoss unter Einsatz von transparenten Platten erfolgreich gelöst, um die prachtvolle Balkendecke aus edlem Holz nicht zu verdecken.<br><b>Eingesetzte Produkte: Concretesorber®, Aztec Wood® e Clearsound®</b>",
-                "Entwicklung, Lieferung und Prüfung der Isolierung und akustischen Korrektur Musikschule „A. Toscanini“ in Verbania.  Die Maßnahme bezog sich auf die Bodendämmung und die Isolierung zwischen den Unterrichtsräumen, die akustische Korrektur der Lehrsäle und der Aufführungssäle unter Einsatz von schallabsorbierenden Platten gegen <br><b>Aztec HPL, Hohlraumresonanz, SchroederDiffusoren und Bass Traps.</b>",
-                "Entwicklung, Herstellung und Prüfung des akustischen Systems Probesaal der Kapelle Verla in Giovo (TN).<br><b>Akustikdeckenplatten: Absorber an den Wänden</b>",
-                "Entwicklung, Herstellung und Prüfung des akustischen Systems Probesaal der Kapelle von Enneberg (BZ).<br><b>Akustikdecke mit Aztec WaveFx®</b>",
-                "Entwicklung, Herstellung und Prüfung des akustischen Systems aus transparenten Platten Clearsound/DL®  Grundschule Olang (BZ). Besondere Maßnahme für die akustische Korrektur, um die gemeinschaftlichen Bereiche den Klassenzimmern anzupassen, ohne dem Treppenhaus Licht zu nehmen.<br><b>Die hergestellten Platten bestehen aus zwei schallabsorbierenden, entgegengesetzten Oberflächen, um ihre Wirksamkeit zu verdoppeln.</b>",
-                "Entwicklung, Herstellung und Prüfung des akustischen Systems für den Versammlungssaal des Sitzes der Vignaioli del Trentino, Aldeno (TN).<br><b>Decke mit Platten Aztec HPL®</b>",
-                "Entwicklung, Herstellung und Prüfung des akustischen Systems Versammlungs und Videokonferenzsäle. Büros DGI, Mailand.<br><b>Decke mit Platten Forex Cst® und Wände mit in Leinenstoff bezogenen Holzlatten.</b>",
-                "PavillonProjekt für die Diffusion der Musik in den offenen Bereichen. Es besteht aus abnehmbaren SchroederDiffusoren, die für die typischen Musikfrequenzen kalibriert sind (Opern, Kapellen, symphonische Musik usw.). Das System ist ausgestattet mit speziellen Bass Traps und reflektierenden Oberflächen in Holz für die korrekte Fernschalldiffusion, es handelt sich praktisch um einen großen Orchesterverstärker.",
-                "Entwicklung, Lieferung und Prüfung des akustischen Systems Musikschule von Enneberg (BZ). Die Maßnahmen betrafen Bereiche mit unterschiedlichen Eigenschaften: Lehrzimmer für Blas, Saiten und Schlaginstrumente, Klaviere usw. Platten Aztec WEg®"
-            ],
-            "en" : [
-                "Progettazione, realizzazione e collaudo correzione acustica Ufficio Anagrafe Bolzano <br><b>Pannelli Aztec®Eg</b>",
-                "Progettazione, realizzazione e collaudo sistema acustico Sala Prove Banda Musicale di Kurtinig a.d.w. (BZ) <br><b>Pannelli Aztec Wood®</b>",
-                "Progettazione, fornitura e collaudo sistema acustico Scuola di musica “Il Pentagramma”  di Tesero (TN). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. E’ stata inoltre affrontata con successo l’acustica della sala manifestazioni e di quella destinata ai saggi musicali al piano attico, con l’impiego di pannelli trasparenti per non nascondere il soffitto in travi di legno particolarmente pregiato. <br>Prodotti utilizzati: <b>Concretesorber®, Aztec Wood® e Clearsound®</b>",
-                "Progettazione, fornitura e collaudo isolamento e correzione acustica Scuola di musica “A. Toscanini”  di Verbania. <br>L’intervento ha riguardato l’isolamento del pavimento e quello tra le aule, la correzione acustica delle aule didattiche e dell’aula saggi con l’impiego di pannelli fonoassorbenti a risonanza di cavità <b>Aztec HPL®</b>, Diffusori di Schroeder e Bass-traps.",
-                "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda Verla di Giovo (TN). <br>Controsoffitto acustico con pannelli: <b>Concretesorber®. Bass-traps e assorbitori alle pareti.</b>",
-                "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda di Marebbe (BZ) <br><b>Controsoffitto acustico con Aztec WaveFx®</b>",
-                "Progettazione, fabbricazione e collaudo di sistema acustico realizzato con pannelli trasparenti <b>Clearsound/DL®</b> <br> Scuola Primaria Valdaora (BZ). <br>Particolare tipo di intervento di correzione acustica per adattare gli spazi comuni a locali didattici senza togliere la luce proveniente dal vano scala. I pannelli realizzati sono costituiti da due superfici assorbenti  contrapposte in modo da raddoppiarne l’efficacia.",
-                "Progettazione, fabbricazione e collaudo di sistema acustico per sala riunioni della Sede Vignaioli del Trentino, Aldeno (TN).<br>Soffitto con pannelli <b>Aztec HPL®</b>",
-                "Progettazione, fabbricazione e collaudo di sistema acustico per sale riunione e videoconferenze. Uffici DGI, Milano .<br>Soffitto con pannelli in <b>Forex Cst®</b> e parete in doghe di legno rivestite in tessuto di lino.",
-                "Progetto di padiglione per la diffusione della musica negli spazi aperti.<br>E’ costituito da Diffusori di Schroeder amovibili tarati per le frequenze tipiche della musica (operistica, bandistica, sinfonica, ecc.). E’ corredato di speciali Bass-traps e superfici riflettenti in legno per la corretta diffusione sonora a  distanza, è in pratica un grande amplificatore d’orchestra.<br>Diagramma di diffusione sonora",
-                "Progettazione, fornitura e collaudo sistema acustico Scuola musicale di Marebbe (BZ). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. <br>Prodotti utilizzati: <b>Aztec W-Eg®</b>"
-            ],
         }
-    </script>
-    <!-- Internalization -->
-    <script type="text/javascript" src="resources/i18next/i18next.min.js"></script>
-    <script type="text/javascript" src="resources/jquery-i18next/jquery-i18next.min.js"></script>
-    <script type="text/javascript" src="resources/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
-    <script type="text/javascript" src="resources/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
-    <script>
-        i18next
+    })
+
+    $("#btnNextImg").click(function (e) {
+        if ($(currentIMG).parent().next().length > 0) {
+            currentIMG = $(currentIMG).parent().next().find(".thumbnail");
+            loadIMG(currentIMG);
+        }
+    })
+
+    // Lazy load
+    window.addEventListener("load", function (event) {
+        lazyload();
+    });
+
+    descriptions = {
+        "it": [
+            "Progettazione, realizzazione e collaudo correzione acustica Ufficio Anagrafe Bolzano <br><b>Pannelli Aztec®Eg</b>",
+            "Progettazione, realizzazione e collaudo sistema acustico Sala Prove Banda Musicale di Kurtinig a.d.w. (BZ) <br><b>Pannelli Aztec Wood®</b>",
+            "Progettazione, fornitura e collaudo sistema acustico Scuola di musica “Il Pentagramma”  di Tesero (TN). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. E’ stata inoltre affrontata con successo l’acustica della sala manifestazioni e di quella destinata ai saggi musicali al piano attico, con l’impiego di pannelli trasparenti per non nascondere il soffitto in travi di legno particolarmente pregiato. <br>Prodotti utilizzati: <b>Concretesorber®, Aztec Wood® e Clearsound®</b>",
+            "Progettazione, fornitura e collaudo isolamento e correzione acustica Scuola di musica “A. Toscanini”  di Verbania. <br>L’intervento ha riguardato l’isolamento del pavimento e quello tra le aule, la correzione acustica delle aule didattiche e dell’aula saggi con l’impiego di pannelli fonoassorbenti a risonanza di cavità <b>Aztec HPL®</b>, Diffusori di Schroeder e Bass-traps.",
+            "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda Verla di Giovo (TN). <br>Controsoffitto acustico con pannelli: <b>Concretesorber®. Bass-traps e assorbitori alle pareti.</b>",
+            "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda di Marebbe (BZ) <br><b>Controsoffitto acustico con Aztec WaveFx®</b>",
+            "Progettazione, fabbricazione e collaudo di sistema acustico realizzato con pannelli trasparenti <b>Clearsound/DL®</b> <br> Scuola Primaria Valdaora (BZ). <br>Particolare tipo di intervento di correzione acustica per adattare gli spazi comuni a locali didattici senza togliere la luce proveniente dal vano scala. I pannelli realizzati sono costituiti da due superfici assorbenti  contrapposte in modo da raddoppiarne l’efficacia.",
+            "Progettazione, fabbricazione e collaudo di sistema acustico per sala riunioni della Sede Vignaioli del Trentino, Aldeno (TN).<br>Soffitto con pannelli <b>Aztec HPL®</b>",
+            "Progettazione, fabbricazione e collaudo di sistema acustico per sale riunione e videoconferenze. Uffici DGI, Milano .<br>Soffitto con pannelli in <b>Forex Cst®</b> e parete in doghe di legno rivestite in tessuto di lino.",
+            "Progetto di padiglione per la diffusione della musica negli spazi aperti.<br>E’ costituito da Diffusori di Schroeder amovibili tarati per le frequenze tipiche della musica (operistica, bandistica, sinfonica, ecc.). E’ corredato di speciali Bass-traps e superfici riflettenti in legno per la corretta diffusione sonora a  distanza, è in pratica un grande amplificatore d’orchestra.<br>Diagramma di diffusione sonora",
+            "Progettazione, fornitura e collaudo sistema acustico Scuola musicale di Marebbe (BZ). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. <br>Prodotti utilizzati: <b>Aztec W-Eg®</b>"
+        ],
+        "de": [
+            "Entwicklung, Realisierung und Prüfung der akustischen Korrektur Einwohnermeldeamt Bozen <br><b> Platten Aztec®Eg</b>",
+            "Entwicklung, Realisierung und Prüfung des akustischen Systems des Probesaals der Musikkapelle von Kurtinig an der Weinstraße (BZ) <br><b> Platten Aztec Wood®</b>",
+            "Entwicklung, Lieferung und Prüfung des akustischen Systems Musikschule „Il Pentagramma“ in Tesero (TN).  Die Maßnahmen betrafen Bereiche mit unterschiedlichen Eigenschaften: Lehrzimmer für Blas, Saiten und Schlaginstrumente, Klaviere usw. Zudem wurde auch die Akustik des Veranstaltungsraums und des Saals für musikalische Darbietungen im Dachgeschoss unter Einsatz von transparenten Platten erfolgreich gelöst, um die prachtvolle Balkendecke aus edlem Holz nicht zu verdecken.<br><b>Eingesetzte Produkte: Concretesorber®, Aztec Wood® e Clearsound®</b>",
+            "Entwicklung, Lieferung und Prüfung der Isolierung und akustischen Korrektur Musikschule „A. Toscanini“ in Verbania.  Die Maßnahme bezog sich auf die Bodendämmung und die Isolierung zwischen den Unterrichtsräumen, die akustische Korrektur der Lehrsäle und der Aufführungssäle unter Einsatz von schallabsorbierenden Platten gegen <br><b>Aztec HPL, Hohlraumresonanz, SchroederDiffusoren und Bass Traps.</b>",
+            "Entwicklung, Herstellung und Prüfung des akustischen Systems Probesaal der Kapelle Verla in Giovo (TN).<br><b>Akustikdeckenplatten: Absorber an den Wänden</b>",
+            "Entwicklung, Herstellung und Prüfung des akustischen Systems Probesaal der Kapelle von Enneberg (BZ).<br><b>Akustikdecke mit Aztec WaveFx®</b>",
+            "Entwicklung, Herstellung und Prüfung des akustischen Systems aus transparenten Platten Clearsound/DL®  Grundschule Olang (BZ). Besondere Maßnahme für die akustische Korrektur, um die gemeinschaftlichen Bereiche den Klassenzimmern anzupassen, ohne dem Treppenhaus Licht zu nehmen.<br><b>Die hergestellten Platten bestehen aus zwei schallabsorbierenden, entgegengesetzten Oberflächen, um ihre Wirksamkeit zu verdoppeln.</b>",
+            "Entwicklung, Herstellung und Prüfung des akustischen Systems für den Versammlungssaal des Sitzes der Vignaioli del Trentino, Aldeno (TN).<br><b>Decke mit Platten Aztec HPL®</b>",
+            "Entwicklung, Herstellung und Prüfung des akustischen Systems Versammlungs und Videokonferenzsäle. Büros DGI, Mailand.<br><b>Decke mit Platten Forex Cst® und Wände mit in Leinenstoff bezogenen Holzlatten.</b>",
+            "PavillonProjekt für die Diffusion der Musik in den offenen Bereichen. Es besteht aus abnehmbaren SchroederDiffusoren, die für die typischen Musikfrequenzen kalibriert sind (Opern, Kapellen, symphonische Musik usw.). Das System ist ausgestattet mit speziellen Bass Traps und reflektierenden Oberflächen in Holz für die korrekte Fernschalldiffusion, es handelt sich praktisch um einen großen Orchesterverstärker.",
+            "Entwicklung, Lieferung und Prüfung des akustischen Systems Musikschule von Enneberg (BZ). Die Maßnahmen betrafen Bereiche mit unterschiedlichen Eigenschaften: Lehrzimmer für Blas, Saiten und Schlaginstrumente, Klaviere usw. Platten Aztec WEg®"
+        ],
+        "en": [
+            "Progettazione, realizzazione e collaudo correzione acustica Ufficio Anagrafe Bolzano <br><b>Pannelli Aztec®Eg</b>",
+            "Progettazione, realizzazione e collaudo sistema acustico Sala Prove Banda Musicale di Kurtinig a.d.w. (BZ) <br><b>Pannelli Aztec Wood®</b>",
+            "Progettazione, fornitura e collaudo sistema acustico Scuola di musica “Il Pentagramma”  di Tesero (TN). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. E’ stata inoltre affrontata con successo l’acustica della sala manifestazioni e di quella destinata ai saggi musicali al piano attico, con l’impiego di pannelli trasparenti per non nascondere il soffitto in travi di legno particolarmente pregiato. <br>Prodotti utilizzati: <b>Concretesorber®, Aztec Wood® e Clearsound®</b>",
+            "Progettazione, fornitura e collaudo isolamento e correzione acustica Scuola di musica “A. Toscanini”  di Verbania. <br>L’intervento ha riguardato l’isolamento del pavimento e quello tra le aule, la correzione acustica delle aule didattiche e dell’aula saggi con l’impiego di pannelli fonoassorbenti a risonanza di cavità <b>Aztec HPL®</b>, Diffusori di Schroeder e Bass-traps.",
+            "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda Verla di Giovo (TN). <br>Controsoffitto acustico con pannelli: <b>Concretesorber®. Bass-traps e assorbitori alle pareti.</b>",
+            "Progettazione, fabbricazione e collaudo sistema acustico Sala prove Banda di Marebbe (BZ) <br><b>Controsoffitto acustico con Aztec WaveFx®</b>",
+            "Progettazione, fabbricazione e collaudo di sistema acustico realizzato con pannelli trasparenti <b>Clearsound/DL®</b> <br> Scuola Primaria Valdaora (BZ). <br>Particolare tipo di intervento di correzione acustica per adattare gli spazi comuni a locali didattici senza togliere la luce proveniente dal vano scala. I pannelli realizzati sono costituiti da due superfici assorbenti  contrapposte in modo da raddoppiarne l’efficacia.",
+            "Progettazione, fabbricazione e collaudo di sistema acustico per sala riunioni della Sede Vignaioli del Trentino, Aldeno (TN).<br>Soffitto con pannelli <b>Aztec HPL®</b>",
+            "Progettazione, fabbricazione e collaudo di sistema acustico per sale riunione e videoconferenze. Uffici DGI, Milano .<br>Soffitto con pannelli in <b>Forex Cst®</b> e parete in doghe di legno rivestite in tessuto di lino.",
+            "Progetto di padiglione per la diffusione della musica negli spazi aperti.<br>E’ costituito da Diffusori di Schroeder amovibili tarati per le frequenze tipiche della musica (operistica, bandistica, sinfonica, ecc.). E’ corredato di speciali Bass-traps e superfici riflettenti in legno per la corretta diffusione sonora a  distanza, è in pratica un grande amplificatore d’orchestra.<br>Diagramma di diffusione sonora",
+            "Progettazione, fornitura e collaudo sistema acustico Scuola musicale di Marebbe (BZ). <br>Gli interventi hanno interessato ambienti con caratteristiche diverse tra loro: aule didattiche per strumenti a fiato, a corda, pianoforte, percussioni, ecc. <br>Prodotti utilizzati: <b>Aztec W-Eg®</b>"
+        ],
+    }
+</script>
+<!-- Internalization -->
+<script type="text/javascript" src="resources/i18next/i18next.min.js"></script>
+<script type="text/javascript" src="resources/jquery-i18next/jquery-i18next.min.js"></script>
+<script type="text/javascript" src="resources/i18next-xhr-backend/i18nextXHRBackend.min.js"></script>
+<script type="text/javascript"
+        src="resources/i18next-browser-languagedetector/i18nextBrowserLanguageDetector.min.js"></script>
+<script>
+    i18next
         .use(i18nextXHRBackend)
         .use(i18nextBrowserLanguageDetector)
         .init({
@@ -409,11 +459,11 @@
                 loadPath: 'locales/{{lng}}/{{ns}}.json',
                 crossDomain: false
             }
-        }, function(err, t) {
+        }, function (err, t) {
             jqueryI18next.init(i18next, $);     // Init jquery wrapper
             $('body').localize();               // Localize all body
             changeFlag(i18next.language);
         });
-    </script>
+</script>
 </body>
 </html>
