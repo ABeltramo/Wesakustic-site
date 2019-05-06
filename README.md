@@ -1,2 +1,2 @@
-# copiaincolla-site
-Site [github.abeltra.me/copiaincolla-site/](http://github.abeltra.me/copiaincolla-site/)
+# Wesakustik site
+See it [live!](https://swissakustik.ch/)
