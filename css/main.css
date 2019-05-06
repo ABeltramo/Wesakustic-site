@@ -32,7 +32,7 @@ a[href^="tel"] {
 
 h1 {
     font-size: 3.9em;
-    text-shadow: 1px 1px 1px #E4321E;
+    text-shadow: 1px 1px 3px #D40808;
 }
 
 .btn-default {
@@ -141,6 +141,38 @@ h1 {
     text-align: justify;
 }
 
+.over-btn {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    height: 120px;
+    padding: 10px;
+    background-color: #268BCC;
+    color: white;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11),0 1px 3px rgba(0,0,0,.08);
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    font-weight: 600;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 15px;
+    text-align:center;
+}
+
+.over-btn div{
+    margin: auto;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .over-btn  {
+        right: 50%;
+        margin-right: -100px;
+    }
+}
+
 /**************************************** 
  * STRIPES 
  *****************************************/
@@ -157,7 +189,7 @@ h1 {
 #stripes :nth-child(1) {
     width: 33.33333%;
     left: -16.66666%;
-    background: #A30404;
+    background: #268BCC;
 }
 
 #stripes :nth-child(2) {

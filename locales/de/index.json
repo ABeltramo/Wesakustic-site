@@ -11,10 +11,8 @@
     "staff" :{
         "founder"       : "Sergio Villa - Gründer",
         "founderDesc"   : "Acustic technician (Aut. Reg. N. 346 - DA 10.04)<br>Mitglied SSA - SGA (Schweizerische Gesellshaft fϋr Akustik) N. E 496",
-        "cofounder"     : "Ermann Frattini",
-        "cofounderDesc" : "Material Manager<br>Co-founder.<br>Experte für Strategie und Personal",
-        "architect"     : "Arch. Christian Fedele",
-        "architectDesc" : "Technischer lokaler Berater: Trentino Alto Adige<br>Akustik-Techniker"
+        "cofounder"     : "Ermann Frattini - Gründer",
+        "cofounderDesc" : "Material Manager<br>Experte für Strategie und Personal"
     },
     "whatWeDo" : {
         "title"         : "Unsere Tätigkeit",

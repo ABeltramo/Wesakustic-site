@@ -64,8 +64,7 @@ $("#changeLanguage li").click(function (e) {
 
 function changeFlag(locale) {
     var selected = $("#changeLanguage li[lang='" + locale + "']");
-    console.log(selected.find("img").attr("src"));
-    console.log($("#langFlag img").attr("src"));
-    $("#langFlag img").attr("src", selected.find("img").attr("src"));
-    $("#langFlag span").text(selected.text());
+    console.log(selected)
+    //$("#langFlag img").attr("src", selected.find("img").attr("src"));
+    $("#langFlag").text(selected.text());
 }
