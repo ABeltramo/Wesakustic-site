@@ -55,7 +55,7 @@ $("#changeLanguage li").click(function (e) {
     e.preventDefault();
     var lang = $(e.target).parents("li").attr("lang");
     i18next.changeLanguage(lang, (err, t) => {
-        console.log(t);
+        console.log(`Change language to ${lang}`);
         if (err) return console.log('something went wrong loading', err);
         changeFlag(lang);
         $('body').localize();
@@ -64,7 +64,7 @@ $("#changeLanguage li").click(function (e) {
 
 function changeFlag(locale) {
     var selected = $("#changeLanguage li[lang='" + locale + "']");
-    console.log(selected)
+    console.log(`Change flag to ${locale}, text=${selected.text()}`)
     //$("#langFlag img").attr("src", selected.find("img").attr("src"));
     $("#langFlag").text(selected.text());
 }
